@@ -1,5 +1,5 @@
 #home.home-box{
-    background: url("./images/home.jpg");
+    background: url("./images/home_new.jpg");
     background-size: cover;
     background-position: center;
     /*padding: 100px 20px;*/
@@ -17,4 +17,31 @@ text-wrap: wrap;
 
 #section{
     background: url("./images/section.jpg");
+}
+
+#section .home-content{
+    text-align: center;
+}
+#navbar{
+    display: flex;
+}
+
+.nav-links{
+    display:flex;
+    flex-direction: row;
+    
+}
+.nav-links li{
+    list-style: none;
+    margin-right: 5%;
+}
+
+.area{
+    width: 25%;
+    justify-content: center;
+    justify-content: center;
+}
+
+.search-box{
+    padding-top: 1%;
 }
