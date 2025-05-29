@@ -14,9 +14,22 @@
     line-height: 18px;
     font-style: sans-serif;
 }
+#home h1{
+    font-size: 40px;
+    margin-bottom:20px;
+}
 #home h4{
     font-size: 18px;
     margin-bottom: 10px;
+}
+#home h5{
+    font-size: 20px;
+    margin: 0;
+}
+#home p{
+    font-size: 16px;
+    color: #333;
+    max-width: 90%;
 }
 #home button{
     border-radius: 30px;
@@ -83,10 +96,11 @@
 .product img{
     width: 100%;
     height: 400px;
-    object-fit: cover;
+    object-fit: contain;
     display: block;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
 }
 #navbar{
     display: flex;
@@ -121,4 +135,47 @@
     color: #000;
     font-size: 20px;
     justify-content: flex-start;
+}
+.myform{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    width: 100%;
+    padding: 20px 0;
+}
+.myform button{
+    background-color: #ff3d00;
+    color: red;
+}
+.myform p{
+    color: blue;
+}
+.myfooter {
+    display: flex;  /*aligns them horizontally*/
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 40px 60px;
+    gap: 30px;
+    font-family: sans-serif;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 100px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 8px;
+}
+.footer-col p, li{
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
