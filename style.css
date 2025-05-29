@@ -1,20 +1,6 @@
-#home.home-box{
-    background: url("./images/home_new.jpg");
+#home{
+    background: url("./images/home.jpg");
     background-size: cover;
-
-    background-position: center;
-    /*padding: 100px 20px;*/
-    color: #000;
-    text-align: center;
-    height: 700px;
-    /*width: 100%;*/
-    background-repeat: no-repeat;
-}
-
-#home .home-content{
-text-align: left;
-text-wrap: wrap;
-
     background-position: top 25% right 0;
     background-color: #f9f9f9;
     height: 600px;
@@ -40,7 +26,6 @@ text-wrap: wrap;
     height: 50px;
     border: none;
     cursor: pointer;
-
 }
 
 #section{
@@ -131,38 +116,16 @@ text-wrap: wrap;
     margin: 0 5px;
     text-wrap: nowrap;
 }
-
-
-#section .home-content{
-    text-align: center;
-}
-#navbar{
-    display: flex;
-}
-
-.nav-links{
-    display:flex;
-    flex-direction: row;
-    
-}
-.nav-links li{
-    list-style: none;
-    margin-right: 5%;
-}
-
-.area{
-    width: 25%;
-    justify-content: center;
-    justify-content: center;
-}
-
-.search-box{
-    padding-top: 1%;
-
 .logo{
     font-weight: 700;
     color: #000;
     font-size: 20px;
     justify-content: flex-start;
+}
 
+#details div{
+  float: left;
+  text-align: center;
+  width: 25%;
+  background-color: gainsboro;
 }
