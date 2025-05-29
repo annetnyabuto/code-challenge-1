@@ -1,6 +1,7 @@
 #home.home-box{
     background: url("./images/home_new.jpg");
     background-size: cover;
+
     background-position: center;
     /*padding: 100px 20px;*/
     color: #000;
@@ -13,11 +14,124 @@
 #home .home-content{
 text-align: left;
 text-wrap: wrap;
+
+    background-position: top 25% right 0;
+    background-color: #f9f9f9;
+    height: 600px;
+    width: 100%;
+    padding: 100px 70px;
+    display: flex;
+}
+.home-text{
+    max-width: 50%;
+    justify-content: flex-start;
+    line-height: 18px;
+    font-style: sans-serif;
+}
+#home h4{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#home button{
+    border-radius: 30px;
+    background-color: #ff4500;
+    color: #f9f9f9;
+    width: 120px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+
 }
 
 #section{
     background: url("./images/section.jpg");
+    background-size: cover;
+    background-position: top 25% right 0;
+    background-color: #f9f9f9;
+    height: 300px;
+    width: 100%;
+    padding: 100px 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 1px;
+    line-height: 10px;
 }
+#section h2{
+    color: #f9f9f9;
+    font-size: 40px;
+}
+#section p{
+    font-size: 18px;
+    color: #f9f9f9;
+}
+#section button{
+    border-radius: 30px;
+    background-color: #fff;
+    color: #000;
+    width: 140px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+#topcollections{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.top {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.top h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.product{
+    width: 250px;
+    text-align: center;
+    margin: 10px;
+}
+.product img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#navbar{
+    display: flex;
+    justify-content: center ;
+    padding: 20px 40px;
+    flex-wrap: nowrap;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#navbar .navbarlinks{
+    display: flex;
+    text-decoration: none;
+    
+}
+
+.navbarlinks li{
+    list-style: none;
+    padding: 0px 15px;
+}
+/* styles specifically the links */
+.navbarlinks li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    color: #333;
+    margin: 0 5px;
+    text-wrap: nowrap;
+}
+
 
 #section .home-content{
     text-align: center;
@@ -44,4 +158,11 @@ text-wrap: wrap;
 
 .search-box{
     padding-top: 1%;
+
+.logo{
+    font-weight: 700;
+    color: #000;
+    font-size: 20px;
+    justify-content: flex-start;
+
 }
